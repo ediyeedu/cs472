@@ -16,10 +16,23 @@ strong {
   }
   
   body {
-    background-color: rgb(156, 236, 75);
     margin: 0;
     padding: 0;
-  }
+    height:100vh;
+    position: relative;
+    }
+    body::before{
+        content: " ";
+        background: url('/cs472/lab2/OI.jpeg') center center fixed;
+        background-size: cover;
+        opacity: 10;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
   
   .markdown-body li {
     word-break: break-all;
@@ -38,9 +51,10 @@ strong {
     text-decoration: underline; 
   }  
   
+  
 p::first-letter {
-    font-size: em; /* 1.5 times the normal font size */
-    font-weight: bold; /* Optional: You can adjust the styling as needed */
+    font-size: em; 
+    font-weight: bold; 
     /*float: left; /* Float the drop cap to the left for a traditional look */
    /* margin-right: 5px; /* Optional: Add some space between the drop cap and the rest of the text */
   }

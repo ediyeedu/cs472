@@ -53,13 +53,13 @@ strong {
   
   
 p::first-letter {
-    font-size: em; 
+    font-size: 20; 
     font-weight: bold; 
     /*float: left; /* Float the drop cap to the left for a traditional look */
    /* margin-right: 5px; /* Optional: Add some space between the drop cap and the rest of the text */
   }
   h1::first-letter{
-    font-size: em;
+    font-size: 20;
     font-weight: bold;
 
   }

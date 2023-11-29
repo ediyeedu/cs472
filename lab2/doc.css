@@ -29,4 +29,25 @@ strong {
   .markdown-body pre tt {
     max-width: 100%; /* or any other valid value */
   }
+  a {
+    text-decoration: none; 
+    color: #0077cc; 
+  }
+  
+  a:hover {
+    text-decoration: underline; 
+  }  
+  
+p::first-letter {
+    font-size: em; /* 1.5 times the normal font size */
+    font-weight: bold; /* Optional: You can adjust the styling as needed */
+    /*float: left; /* Float the drop cap to the left for a traditional look */
+   /* margin-right: 5px; /* Optional: Add some space between the drop cap and the rest of the text */
+  }
+  h1::first-letter{
+    font-size: em;
+    font-weight: bold;
+
+  }
+  
   

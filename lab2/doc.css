@@ -1,0 +1,32 @@
+strong {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  hr {
+    color: black;
+    height: fit-content;
+    border: none; /* Fix the typo here */
+  }
+  
+  b {
+    color: brown;
+  }
+  
+  body {
+    background-color: rgb(156, 236, 75);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .markdown-body li {
+    word-break: break-all;
+  }
+  
+  .markdown-body pre code,
+  .markdown-body pre tt {
+    max-width: 100%; /* or any other valid value */
+  }
+  

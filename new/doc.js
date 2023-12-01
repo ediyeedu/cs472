@@ -14,7 +14,18 @@ foo();
 foo(1);
 foo(1,2);
 foo(1,2,3);*/
-const str = 'Hello';
+/*const str = 'Hello';
 const arr = [...str];
-console.log(arr);
+console.log(arr);*/
 
+//console.log("hHello world")
+alert("example of alert")
+console.log(typeof true)
+console.log(typeof null)
+console.log(typeof undefined)
+console.log(typeof {})
+console.log(typeof [])
+a=5
+console.log(a)
+var a = 10;
+console.log(a)

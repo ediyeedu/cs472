@@ -75,7 +75,7 @@ h1{
     cursor: pointer;
 }
 
-#azureBut{
+#button{
     width: 100%;
     background-color: white;
     padding: 12px 20px;
@@ -84,7 +84,7 @@ h1{
     border-radius: 4px;
     cursor: pointer;
   }  
-  #azureBut img {
+  #button img {
     width:100px ; 
     height: 30px;
   }

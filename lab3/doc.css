@@ -87,6 +87,7 @@ h1{
   #button-img img{
     width:100px ; 
     height: 30px;
+    background-color: white;
   }
 
 input[type=text], select {

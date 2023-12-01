@@ -77,7 +77,7 @@ h1{
 
 #button{
     width: 100%;
-    background-color: white;
+    background-color: rgb(17, 17, 17);
     padding: 12px 20px;
     margin: 8px 0;
     border: none;
@@ -118,7 +118,7 @@ input[type=text], select {
   
   /* Create two equal columns that floats next to each other */
   .column {
-    float: left;
+    float:left;
     width: 50%;
     padding-left: 170px;
     padding-right: 170px;
@@ -126,26 +126,26 @@ input[type=text], select {
     padding-bottom: 50px;
   }
 
-  .dotted-lines {
+  .lines {
     position: relative;
     text-align: center;
   }
   
-  .dotted-lines::before,
-  .dotted-lines::after {
+  .lines::before,
+  .lines::after {
     content: "";
     display: inline-block;
-    width: 150px; /* Adjust the width of the dotted lines */
+    width: 80px; /* Adjust the width of the dotted lines */
     border-top: 1px dotted #000; /* Dotted line style and color */
     vertical-align: middle;
     margin: 0 10px; /* Adjust the margin to control the spacing */
   }
   
-  .dotted-lines::before {
+  .lines::before {
     margin-left: 0; /* Adjust the left margin */
   }
   
-  .dotted-lines::after {
+  .lines::after {
     margin-right: 0; /* Adjust the right margin */
   }
 
@@ -189,6 +189,7 @@ input[type=text], select {
   .loginTitle{
     color: #000;
   }
+
  
   
 

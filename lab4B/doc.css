@@ -32,7 +32,8 @@
 }
 .btn-color{
     background-color: white !important; /* Add !important to override default Bootstrap styles */
-    color: #FFC107 !important; /* Add !important to override default Bootstrap styles */
+    color: #ff0707 !important; /* Add !important to override default Bootstrap styles */
+    border: 2px solid red;
 }
 .btn-add-product{
     background-color: white !important; /* Add !important to override default Bootstrap styles */

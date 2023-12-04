@@ -70,9 +70,9 @@ function longestFirst(arr1) {
     if(arr1.length===0){
         return 0;
     }
-    let maxLen=0;
+    let maxLen=arr[0].length;
     for (let i = 0; arr1.length; i++) {
-       if(arr1[i].length>arr1[i+1].length){
+       if(arr1[i].length>maxLen){
         maxLen=arr1[i].length;
        }
         return maxLen;
@@ -114,4 +114,25 @@ function sum2(arg1){
 }
 console.log(sum2([2,4,8]));
 
-
+//Number 12;
+function print(n, a, b) {
+    if (n <= 0) {
+      console.log("Invalid length.");
+      return;
+    }
+  
+    if (n === 1) {
+      console.log(a);
+      return;
+    }
+  
+    let fiboSequence = [a, b];
+    for (let i = 2; i < n; i++) {
+      fiboSequence[i] = fiboSequence[i - 1] + fiboSequence[i - 2];
+    }
+  
+    console.log(fiboSequence.join(', '));
+  }
+   print(1, 0, 1);  
+ 
+  

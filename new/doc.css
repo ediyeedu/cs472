@@ -1,4 +1,4 @@
-
+/* 
 /*function foo(){
     console.log(arguments);
 }
@@ -93,7 +93,7 @@ foo(1,2,3);*/
 /*const str = 'Hello';
 const arr = [...str];
 console.log(arr);*/
-//console.log("hHello world")
+/* //console.log("hHello world")
 // alert("example of alert")
 // console.log(typeof true)
 // console.log(typeof null)
@@ -140,4 +140,6 @@ console.log(arr);*/
 // arr.sort(order);
 // console.log(arr);
 
-//
+// */
+
+console.log(window); 

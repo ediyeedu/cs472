@@ -1,4 +1,4 @@
-function sum(arg1,arg2){
+/*function sum(arg1,arg2){
     if(arg1>arg2) {
         return arg1;
 }else{
@@ -123,12 +123,22 @@ console.log(arr);*/
 //     return x;
 // }
 // console.log(reverse("eden"));
-function longestFirst(arr1) {
+/*function longestFirst(arr1) {
     for (let i = 0; arr1[i].length; i++) {
         if (arr[i].length > arr[i + 1]) {
         }
         return arr[i];
     }
 }
-console.log(longestFirst(["name", "denb", "kerrrir"]));
+console.log(longestFirst(["name", "denb", "kerrrir"]));*/
 
+let a = 5
+let user = {
+    firstName: "John",
+    sayHi(lname) {
+        console.log(this);//user
+        console.log(lname);
+        // console.log(firstName);
+        console.log(`Hello, ${this.firstName}!`);
+    }
+};

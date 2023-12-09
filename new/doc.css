@@ -19,7 +19,7 @@ foo(1,2,3);*/
 const arr = [...str];
 console.log(arr);*/
 
-//console.log("hHello world")
+/*console.log("hHello world")
 // alert("example of alert")
 // console.log(typeof true)
 // console.log(typeof null)
@@ -74,7 +74,7 @@ function sum(arg1,arg2){
 }
 }
 let a = sum(2,4);
-console.log(sum);/*function foo(){
+console.log(sum);function foo(){
     console.log(arguments);
 }
 function foo(arg1){
@@ -140,6 +140,6 @@ console.log(arr);*/
 // arr.sort(order);
 // console.log(arr);
 
-// */
+// 
 
-console.log(window); 
+console.log(window); */

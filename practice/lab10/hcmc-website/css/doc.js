@@ -1,15 +1,15 @@
-class Patient{
-    constructor(PatientID,FirstName,MiddleInitial,LastName,DoB,department,IsOutpatient){
-        this.patientID = PatientID;
-        this.firstName = FirstName;
-        this.middleInitial = MiddleInitial;
-        this.lastName = LastName;
-        this.dOB = DoB;
-        this.department = department;
-        this.isOutpatient = IsOutpatient;
+class Patients{
+    constructor(personID,FirstN,MiddleI,LastN,doB,dpt,outPatient){
+        this.personID = personID;
+        this.firstN = FirstN;
+        this.middleI = MiddleI;
+        this.lastName = LastN;
+        this.dOB = doB;
+        this.department = dpt;
+        this.outPatient = outPatient;
     }
-    addPatient(){
-     const properties = [this.patientID, this.firstName, this.middleInitial, this.lastName, this.dOB, this.department, this.isOutpatient];
+    addingNewPatient(){
+     const properties = [this.personID, this.firstN, this.middleI, this.lastName, this.dOB, this.department, this.outPatient];
     let tBody = document.getElementById("tbodyPatientsList");
     let newTr = document.createElement("tr");
     for (let i = 0; i < 7; i++) {
@@ -21,13 +21,13 @@ class Patient{
     tBody.appendChild(newTr);
 }
 }
-const patient1 = new Patient("EP-001-000001", "Ana", "J", "Smith", "1945-01-05", "Ear, Nose and Throat", "No");
-const patient2 = new Patient("P-001-000002", "Bob", "K", "Jones", "1985-05-04", "Cardiology", "Yes");
-const patient3 = new Patient("EP-001-000003", "Carlos", "A", "Hernandez", "1957-03-13", "Cardiology", "Yes")
+const person1 = new Patients("EP-001-000001", "Ana", "J", "Smith", "1945-01-05", "Ear, Nose and Throat", "No");
+const person2 = new Patients("P-001-000002", "Bob", "K", "Jones", "1985-05-04", "Cardiology", "Yes");
+const person3 = new Patients("EP-001-000003", "Carlos", "A", "Hernandez", "1957-03-13", "Cardiology", "Yes")
 
-var patients=[patient1,patient2,patient3]
+var patients=[person1,person2,person3]
 patients.forEach(patient => {
-    patient.addPatient();
+    patient.addingNewPatient();
 });
 
 document.getElementById("btnRegisterPatient").addEventListener("click", function (event) {
@@ -48,7 +48,7 @@ document.getElementById("btnRegisterPatient").addEventListener("click", function
 
 event.preventDefault(); // Prevent the form from actually submitting
 
- const newPatient = new Patient(patientIdNumber.value, firstName.value, middleInitials.value, lastName.value, dateOfBirth.value, ddlDepartment.value, radioIsOutPatient.value);
+ const newPatient = new Patients(patientIdNumber.value, firstName.value, middleInitials.value, lastName.value, dateOfBirth.value, ddlDepartment.value, radioIsOutPatient.value);
  newPatient.addPatient();
   });
 

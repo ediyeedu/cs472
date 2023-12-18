@@ -16,7 +16,7 @@ const drive = http.createServer((re, rs) => {
     rs.end('Welcome to my website');
   } else {
     
-    re.writeHead(404, { 'Content-Type': 'text/plain' });n
+    re.writeHead(404, { 'Content-Type': 'text/plain' });
     re.end('Not Found');
   }
 });
